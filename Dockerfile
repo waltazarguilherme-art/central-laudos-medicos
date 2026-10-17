@@ -3,6 +3,8 @@ WORKDIR /app
 COPY package.json ./
 COPY server.js ./
 COPY index.html ./
+COPY login.html ./
+COPY admin.html ./
 COPY catalogo.html ./
 ENV NODE_ENV=production
 EXPOSE 10000
