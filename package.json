@@ -1,0 +1,12 @@
+{
+  "name": "central-laudos-medicos",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Interface de avaliação da Central de Laudos Médicos, sem armazenamento clínico",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
